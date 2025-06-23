@@ -131,3 +131,40 @@ To ensure successful planning, execution, and delivery of the AirBnB Clone proje
 Together, these roles enable a cohesive, agile development process that leads to a high-quality product.
 
 
+
+## 🧩 UI Component Patterns
+
+To build a scalable and maintainable frontend for the AirBnB Clone project, we are designing reusable and modular UI components. These components serve as the building blocks of the application and will follow consistent styling and responsive behavior.
+
+### 🔧 Planned UI Components
+
+#### 1. **Navbar**
+- Displays the application logo, navigation links, user profile icon, and a responsive hamburger menu on smaller screens.
+- Includes search input for location, date, and guests (optional for advanced versions).
+- Sticky positioning on scroll for better usability.
+
+#### 2. **Property Card**
+- Used in the property listing view to display individual listings.
+- Contains:
+  - Property image
+  - Title & location
+  - Price per night
+  - Star rating
+  - Short description
+- Responsive layout with hover effects for interactivity.
+
+#### 3. **Footer**
+- Contains links to About, Terms, Privacy Policy, Help Center, and social media.
+- Designed with a minimal layout and responsive grid/flex behavior.
+
+---
+
+### ✨ Purpose of Componentization
+
+- **Reusability**: Avoid duplicating code and speed up development across pages.
+- **Maintainability**: Changes in one component reflect across the app consistently.
+- **Scalability**: Easily extend the UI with new features and views without redesigning from scratch.
+- **Accessibility**: Shared components can be built with accessibility best practices (ARIA roles, keyboard nav).
+
+As the design evolves, additional components such as buttons, modals, search bars, and booking forms will be introduced into the component library.
+
